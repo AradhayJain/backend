@@ -42,7 +42,7 @@ const server = app.listen(port, () => {
 const io = new Server(server, {
     pingTimeOut: 60000,
     cors: {
-        origin: 'https://jazzy-froyo-088ac8.netlify.app',
+        origin: 'http://localhost:5173',
     }
 })
 
